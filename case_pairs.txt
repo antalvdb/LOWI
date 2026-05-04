@@ -40,17 +40,20 @@ UvNL  2017  2017 LEI negeren bijdragen van een ander - ongegrond
 UvNL  2014  2014 TUD Laster - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2014%20TUD%20Laster%20-%20ongegrond.pdf
       → 10 LOWI adviezen  (avg similarity: 0.838)
+      NOTE: all 10 pairs manually verified as false positives; entire cluster is spurious.
+      Likely explanation: the UvNL laster/defamation genre shares vocabulary with
+      unrelated LOWI cases about reputational harm, book reviews, and polemics.
 
-  LOWI 2020  lowi-2020-11            sim=0.8515  https://lowi.nl/advies-2020-11/  [FALSE] lowi-2020-11 is a Rijksuniversiteit Groningen case; no connection to TU Delft
-  LOWI 2021  lowi-2021-02            sim=0.8325  https://lowi.nl/advies-2021-02/
-  LOWI 2022  lowi-2022-18            sim=0.8339  https://lowi.nl/advies-2022-18/
-  LOWI 2023  lowi-2023-06            sim=0.8272  https://lowi.nl/advies-2023-06/
-  LOWI 2023  lowi-2023-17            sim=0.8264  https://lowi.nl/advies-2023-17/
-  LOWI 2023  lowi-2023-19            sim=0.8289  https://lowi.nl/advies-2023-19/
-  LOWI 2024  lowi-2024-03            sim=0.8489  https://lowi.nl/advies-2024-03/
-  LOWI 2024  lowi-2024-10            sim=0.8469  https://lowi.nl/advies-2024-10/
-  LOWI 2024  lowi-2024-19            sim=0.8645  https://lowi.nl/advies-2024-19/
-  LOWI 2025  lowi-2025-08            sim=0.8236  https://lowi.nl/advies-2025-08/
+  LOWI 2020  lowi-2020-11            sim=0.8515  https://lowi.nl/advies-2020-11/  [FALSE] Rijksuniversiteit Groningen
+  LOWI 2021  lowi-2021-02            sim=0.8325  https://lowi.nl/advies-2021-02/  [FALSE] Leids Universitair Medisch Centrum
+  LOWI 2022  lowi-2022-18            sim=0.8339  https://lowi.nl/advies-2022-18/  [FALSE] Universiteit voor Humanistiek
+  LOWI 2023  lowi-2023-06            sim=0.8272  https://lowi.nl/advies-2023-06/  [FALSE] Vrije Universiteit Amsterdam
+  LOWI 2023  lowi-2023-17            sim=0.8264  https://lowi.nl/advies-2023-17/  [FALSE] Universiteit Utrecht
+  LOWI 2023  lowi-2023-19            sim=0.8289  https://lowi.nl/advies-2023-19/  [FALSE] Rijksuniversiteit Groningen
+  LOWI 2024  lowi-2024-03            sim=0.8489  https://lowi.nl/advies-2024-03/  [FALSE] Rijksuniversiteit Groningen
+  LOWI 2024  lowi-2024-10            sim=0.8469  https://lowi.nl/advies-2024-10/  [FALSE] RIVM
+  LOWI 2024  lowi-2024-19            sim=0.8645  https://lowi.nl/advies-2024-19/  [FALSE] TU Delft but different case (complaint filed April 2022, decade after the 2012 book-review case)
+  LOWI 2025  lowi-2025-08            sim=0.8236  https://lowi.nl/advies-2025-08/  [FALSE] NWO-I
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2018  2018 UM Betrouwbaarheid en onpartijdigheid - ongegrond
