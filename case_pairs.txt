@@ -21,19 +21,19 @@ UvNL  2017  2017 LEI negeren bijdragen van een ander - ongegrond
   LOWI 2020  lowi-2020-01            sim=0.8734  https://lowi.nl/advies-2020-01/    [RELATED] same complainant/dispute, but lowi-2020-01 is a new complaint (Nov 2017) against both Leiden and VU Amsterdam — not a direct appeal of this CWI advice
   LOWI 2020  lowi-2020-07            sim=0.8510  https://lowi.nl/advies-2020-07/    [FALSE] Rijksuniversiteit Groningen
   LOWI 2020  lowi-2020-08            sim=0.8367  https://lowi.nl/advies-2020-08/    [FALSE] Universiteit van Amsterdam
-  LOWI 2020  lowi-2020-10            sim=0.8424  https://lowi.nl/advies-2020-10/    [UNVERIFIED] Leiden; complaint filed against verzoeker by 4 betrokkenen — roles may be reversed vs. UvNL case; subject matter unclear
+  LOWI 2020  lowi-2020-10            sim=0.8424  https://lowi.nl/advies-2020-10/    [FALSE] Leiden but different case: medical research ethics (research without ethics committee approval, blood sampling without consent)
   LOWI 2020  lowi-2020-14            sim=0.8226  https://lowi.nl/advies-2020-14/    [FALSE] UMC Utrecht
-  LOWI 2021  lowi-2021-14            sim=0.8733  https://lowi.nl/advies-2021-14/    [UNVERIFIED] Leiden; dismissed 2 days after filing (kennelijk ongegrond) — consistent with serial complainant in same underlying dispute
-  LOWI 2021  lowi-2021-18            sim=0.8718  https://lowi.nl/advies-2021-18/    [UNVERIFIED] Leiden; dismissed as niet-ontvankelijk / kennelijk ongegrond — consistent with serial complainant pattern
-  LOWI 2022  lowi-2022-02            sim=0.8267  https://lowi.nl/advies-2022-02/    [UNVERIFIED] Leiden + KNAW (same klacht filed at both CWIs simultaneously, see also 2022-01) — possibly different dispute
-  LOWI 2022  lowi-2022-17            sim=0.8624  https://lowi.nl/advies-2022-17/    [UNVERIFIED] Leiden; multiple verzoekers, ongegrond — subject matter unclear
+  LOWI 2021  lowi-2021-14            sim=0.8733  https://lowi.nl/advies-2021-14/    [FALSE] Leiden but different case: legal scholar vs. history journal editor over rejection of an opinion piece
+  LOWI 2021  lowi-2021-18            sim=0.8718  https://lowi.nl/advies-2021-18/    [FALSE] Leiden but different case: lawyer disputes professor's legal opinion written for opposing counsel in court
+  LOWI 2022  lowi-2022-02            sim=0.8267  https://lowi.nl/advies-2022-02/    [FALSE] Leiden but different case: researchers complain about institute director's Volkskrant opinion piece on their report
+  LOWI 2022  lowi-2022-17            sim=0.8624  https://lowi.nl/advies-2022-17/    [FALSE] Leiden but different case: emeritus professor's working paper on international armed conflict accused of being misleading
   LOWI 2023  lowi-2023-03            sim=0.8282  https://lowi.nl/advies-2023-03/    [FALSE] Universiteit Utrecht
-  LOWI 2023  lowi-2023-05            sim=0.8750  https://lowi.nl/advies-2023-05/    [UNVERIFIED] Leiden; dismissed as niet-ontvankelijk (no clear violation description) — consistent with serial complainant pattern
+  LOWI 2023  lowi-2023-05            sim=0.8750  https://lowi.nl/advies-2023-05/    [FALSE] Leiden but different case: follow-up fraud investigation reviewing 53 articles by a researcher found guilty of misconduct in 2020
   LOWI 2023  lowi-2023-10            sim=0.8379  https://lowi.nl/advies-2023-10/    [FALSE] Rijksuniversiteit Groningen
   LOWI 2024  lowi-2024-01            sim=0.8233  https://lowi.nl/advies-2024-01/    [FALSE] Universiteit Utrecht + Universiteit Twente
   LOWI 2024  lowi-2024-02            sim=0.8231  https://lowi.nl/advies-2024-02/    [FALSE] Vrije Universiteit Amsterdam
   LOWI 2025  lowi-2025-03            sim=0.8464  https://lowi.nl/advies-2025-03/    [FALSE] Rijksuniversiteit Groningen
-  LOWI 2025  lowi-2025-14-2          sim=0.8582  https://lowi.nl/advies-2025-14-2/  [UNVERIFIED] Leiden; dismissed as kennelijk ongegrond two months after filing — consistent with serial complainant pattern
+  LOWI 2025  lowi-2025-14-2          sim=0.8582  https://lowi.nl/advies-2025-14-2/  [FALSE] Leiden but different case: litigant in child-custody dispute files integrity complaint against a court-appointed expert
   LOWI 2025  lowi-2025-15            sim=0.8340  https://lowi.nl/advies-2025-15/    [FALSE] Vrije Universiteit Amsterdam
 
 ────────────────────────────────────────────────────────────────────────────────
