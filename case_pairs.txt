@@ -16,25 +16,25 @@ UvNL  2017  2017 LEI negeren bijdragen van een ander - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2017%20UL%20negeren%20bijdragen%20van%20een%20ander%20-%20ongegrond.pdf
       → 19 LOWI adviezen  (avg similarity: 0.846)
 
-  LOWI 2019  lowi-2019-23            sim=0.8499  https://lowi.nl/advies-2019-23/
-  LOWI 2019  lowi-2019-25            sim=0.8348  https://lowi.nl/advies-2019-25/
-  LOWI 2020  lowi-2020-01            sim=0.8734  https://lowi.nl/advies-2020-01/  [RELATED] same complainant/dispute, but lowi-2020-01 is a new complaint (Nov 2017) against both Leiden and VU Amsterdam — not a direct appeal of this CWI advice
-  LOWI 2020  lowi-2020-07            sim=0.8510  https://lowi.nl/advies-2020-07/
-  LOWI 2020  lowi-2020-08            sim=0.8367  https://lowi.nl/advies-2020-08/
-  LOWI 2020  lowi-2020-10            sim=0.8424  https://lowi.nl/advies-2020-10/
-  LOWI 2020  lowi-2020-14            sim=0.8226  https://lowi.nl/advies-2020-14/
-  LOWI 2021  lowi-2021-14            sim=0.8733  https://lowi.nl/advies-2021-14/
-  LOWI 2021  lowi-2021-18            sim=0.8718  https://lowi.nl/advies-2021-18/
-  LOWI 2022  lowi-2022-17            sim=0.8624  https://lowi.nl/advies-2022-17/
-  LOWI 2022  lowi-2022-02            sim=0.8267  https://lowi.nl/advies-2022-02/
-  LOWI 2023  lowi-2023-03            sim=0.8282  https://lowi.nl/advies-2023-03/
-  LOWI 2023  lowi-2023-05            sim=0.8750  https://lowi.nl/advies-2023-05/
-  LOWI 2023  lowi-2023-10            sim=0.8379  https://lowi.nl/advies-2023-10/
-  LOWI 2024  lowi-2024-01            sim=0.8233  https://lowi.nl/advies-2024-01/
-  LOWI 2024  lowi-2024-02            sim=0.8231  https://lowi.nl/advies-2024-02/
-  LOWI 2025  lowi-2025-03            sim=0.8464  https://lowi.nl/advies-2025-03/
-  LOWI 2025  lowi-2025-14-2          sim=0.8582  https://lowi.nl/advies-2025-14-2/
-  LOWI 2025  lowi-2025-15            sim=0.8340  https://lowi.nl/advies-2025-15/
+  LOWI 2019  lowi-2019-23            sim=0.8499  https://lowi.nl/advies-2019-23/    [FALSE] Rijksuniversiteit Groningen
+  LOWI 2019  lowi-2019-25            sim=0.8348  https://lowi.nl/advies-2019-25/    [FALSE] Universiteit van Amsterdam
+  LOWI 2020  lowi-2020-01            sim=0.8734  https://lowi.nl/advies-2020-01/    [RELATED] same complainant/dispute, but lowi-2020-01 is a new complaint (Nov 2017) against both Leiden and VU Amsterdam — not a direct appeal of this CWI advice
+  LOWI 2020  lowi-2020-07            sim=0.8510  https://lowi.nl/advies-2020-07/    [FALSE] Rijksuniversiteit Groningen
+  LOWI 2020  lowi-2020-08            sim=0.8367  https://lowi.nl/advies-2020-08/    [FALSE] Universiteit van Amsterdam
+  LOWI 2020  lowi-2020-10            sim=0.8424  https://lowi.nl/advies-2020-10/    [UNVERIFIED] Leiden; complaint filed against verzoeker by 4 betrokkenen — roles may be reversed vs. UvNL case; subject matter unclear
+  LOWI 2020  lowi-2020-14            sim=0.8226  https://lowi.nl/advies-2020-14/    [FALSE] UMC Utrecht
+  LOWI 2021  lowi-2021-14            sim=0.8733  https://lowi.nl/advies-2021-14/    [UNVERIFIED] Leiden; dismissed 2 days after filing (kennelijk ongegrond) — consistent with serial complainant in same underlying dispute
+  LOWI 2021  lowi-2021-18            sim=0.8718  https://lowi.nl/advies-2021-18/    [UNVERIFIED] Leiden; dismissed as niet-ontvankelijk / kennelijk ongegrond — consistent with serial complainant pattern
+  LOWI 2022  lowi-2022-02            sim=0.8267  https://lowi.nl/advies-2022-02/    [UNVERIFIED] Leiden + KNAW (same klacht filed at both CWIs simultaneously, see also 2022-01) — possibly different dispute
+  LOWI 2022  lowi-2022-17            sim=0.8624  https://lowi.nl/advies-2022-17/    [UNVERIFIED] Leiden; multiple verzoekers, ongegrond — subject matter unclear
+  LOWI 2023  lowi-2023-03            sim=0.8282  https://lowi.nl/advies-2023-03/    [FALSE] Universiteit Utrecht
+  LOWI 2023  lowi-2023-05            sim=0.8750  https://lowi.nl/advies-2023-05/    [UNVERIFIED] Leiden; dismissed as niet-ontvankelijk (no clear violation description) — consistent with serial complainant pattern
+  LOWI 2023  lowi-2023-10            sim=0.8379  https://lowi.nl/advies-2023-10/    [FALSE] Rijksuniversiteit Groningen
+  LOWI 2024  lowi-2024-01            sim=0.8233  https://lowi.nl/advies-2024-01/    [FALSE] Universiteit Utrecht + Universiteit Twente
+  LOWI 2024  lowi-2024-02            sim=0.8231  https://lowi.nl/advies-2024-02/    [FALSE] Vrije Universiteit Amsterdam
+  LOWI 2025  lowi-2025-03            sim=0.8464  https://lowi.nl/advies-2025-03/    [FALSE] Rijksuniversiteit Groningen
+  LOWI 2025  lowi-2025-14-2          sim=0.8582  https://lowi.nl/advies-2025-14-2/  [UNVERIFIED] Leiden; dismissed as kennelijk ongegrond two months after filing — consistent with serial complainant pattern
+  LOWI 2025  lowi-2025-15            sim=0.8340  https://lowi.nl/advies-2025-15/    [FALSE] Vrije Universiteit Amsterdam
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2014  2014 TUD Laster - ongegrond
