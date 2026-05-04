@@ -59,11 +59,12 @@ UvNL  2014  2014 TUD Laster - ongegrond
 UvNL  2018  2018 UM Betrouwbaarheid en onpartijdigheid - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2018%20UM%20Betrouwbaarheid%20en%20onpartijdigheid%20-%20ongegrond.pdf
       → 7 LOWI adviezen  (avg similarity: 0.883)
+      NOTE: all 7 pairs verified as false positives. UvNL case is about publication impartiality (low response rate, selective citation, 2017 complaint). All LOWI matches have independent CWI decisions from 2020–2024 — different cases sharing Maastricht institutional vocabulary.
 
-  LOWI 2020  lowi-2020-21            sim=0.8845  https://lowi.nl/advies-2020-21/    [UNVERIFIED] Maastricht ✓; PhD supervision + authorship of 4 publications — subject plausibly related
-  LOWI 2022  lowi-2022-12            sim=0.8926  https://lowi.nl/advies-2022-12/    [UNVERIFIED] Maastricht ✓; neuroscience postdoc, research-proposal credit dispute
-  LOWI 2024  lowi-2024-05            sim=0.8813  https://lowi.nl/advies-2024-05/    [UNVERIFIED] Maastricht ✓ (FHML); postdoc — institution matches, subject unclear
-  LOWI 2024  lowi-2024-14            sim=0.8930  https://lowi.nl/advies-2024-14/    [UNVERIFIED] Maastricht ✓; two psychologists, collaboration dispute ~10 years ago
+  LOWI 2020  lowi-2020-21            sim=0.8845  https://lowi.nl/advies-2020-21/    [FALSE] Maastricht but different case: PhD student vs. former supervisor, data manipulation in 4 publications, own CWI decision Feb 2020
+  LOWI 2022  lowi-2022-12            sim=0.8926  https://lowi.nl/advies-2022-12/    [FALSE] Maastricht but different case: postdoc vs. professor, NWO proposal credit dispute, own CWI decision May 2021
+  LOWI 2024  lowi-2024-05            sim=0.8813  https://lowi.nl/advies-2024-05/    [FALSE] Maastricht but different case: two postdocs vs. professor + two UHDs, grant/authorship/plagiarism, own CWI decision Jul 2023
+  LOWI 2024  lowi-2024-14            sim=0.8930  https://lowi.nl/advies-2024-14/    [FALSE] Maastricht but different case: former UD excluded from supervision and co-authorship of 2016 publication, own CWI decision Apr 2024
   LOWI 2025  lowi-2025-05            sim=0.8966  https://lowi.nl/advies-2025-05/    [FALSE] Maastricht but different case: medical specialist, 40-year-old clinical-skills assessment model
   LOWI 2025  lowi-2025-09            sim=0.8343  https://lowi.nl/advies-2025-09/    [FALSE] Maastricht but different case: UHD fired for sexual misconduct — unrelated to research integrity
   LOWI 2025  lowi-2025-13            sim=0.8970  https://lowi.nl/advies-2025-13/    [FALSE] Maastricht but different case: external complainant about a 2012 thesis
@@ -75,7 +76,7 @@ UvNL  2014  2014 UM Validiteit van de data - ongegrond
 
   LOWI 2020  lowi-2020-17            sim=0.9057  https://lowi.nl/advies-2020-17/    [FALSE] Maastricht but different case: pharmaceutical employee, articles from 2018/2020
   LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/  [OK] Maastricht University, data validity complaint confirmed in both texts
-  LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/    [UNVERIFIED] Maastricht ✓; PhD student complains about promotor misconduct — possible data-validity overlap
+  LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/    [FALSE] Maastricht but different case: PhD student vs. supervisor, data manipulation + authorship in grant applications and thesis, own CWI decision Feb 2020
   LOWI 2021  lowi-2021-01            sim=0.8892  https://lowi.nl/advies-2021-01/    [FALSE] Maastricht but different case: internet-accessibility publications, co-authorship/plagiarism
   LOWI 2025  lowi-2025-11            sim=0.8633  https://lowi.nl/advies-2025-11/    [FALSE] Maastricht but different case: US-based law-faculty PhD candidate, supervision dispute
 
@@ -94,7 +95,7 @@ UvNL  2016  2016 EUR Niet controleerbare onderzoeksdata - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20EUR%20Niet%20controleerbare%20onderzoeksdata%20-%20gegrond.pdf
       → 3 LOWI adviezen  (avg similarity: 0.825)
 
-  LOWI 2020  lowi-2020-19            sim=0.8292  https://lowi.nl/advies-2020-19/    [UNVERIFIED] Erasmus Universiteit Rotterdam ✓; researcher's complaint about colleague's publication
+  LOWI 2020  lowi-2020-19            sim=0.8292  https://lowi.nl/advies-2020-19/    [FALSE] Erasmus but different case: citation practices (uncited co-authored book chapter), not non-verifiable data — different misconduct type and different parties
   LOWI 2022  lowi-2022-09            sim=0.8220  https://lowi.nl/advies-2022-09/    [FALSE] Erasmus MC but different case: COVID/SARS-CoV-2 origins paper (explicitly same case as LOWI 2021-15)
   LOWI 2024  lowi-2024-11            sim=0.8224  https://lowi.nl/advies-2024-11/    [FALSE] Erasmus MC but different case: UD fired on the spot, employment dispute
 
@@ -104,14 +105,14 @@ UvNL  2016  2016 RU plagiaat - gegrond
       → 2 LOWI adviezen  (avg similarity: 0.864)
 
   LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/  [OK] Radboud University plagiarism confirmed in both texts; UvNL gegrond (2016), LOWI case involves new complaint (2019) at same institution
-  LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/    [UNVERIFIED] Radboud ✓; life-sciences UHD, manuscript co-authorship dispute — possible plagiarism match
+  LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/    [FALSE] Radboud but different case: co-author blocking manuscript submission (not plagiarism), own CWI decision Oct 2022
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2016  2016 UT Plagiaat - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20UT%20Plagiaat%20-%20gegrond.pdf
       → 2 LOWI adviezen  (avg similarity: 0.828)
 
-  LOWI 2021  lowi-2021-08            sim=0.8314  https://lowi.nl/advies-2021-08/    [UNVERIFIED] Twente ✓; policy research commissioned by Ministry of Education — thematic overlap with plagiarism plausible
+  LOWI 2021  lowi-2021-08            sim=0.8314  https://lowi.nl/advies-2021-08/    [FALSE] Twente but different case: organisation complainant, policy evaluation transparency (not plagiarism) — different misconduct type and different complainant structure
   LOWI 2021  lowi-2021-21            sim=0.8251  https://lowi.nl/advies-2021-21/    [FALSE] Twente but different case: press-release controversy about a researcher's public statements, not plagiarism
 
 ────────────────────────────────────────────────────────────────────────────────
