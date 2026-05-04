@@ -60,43 +60,43 @@ UvNL  2018  2018 UM Betrouwbaarheid en onpartijdigheid - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2018%20UM%20Betrouwbaarheid%20en%20onpartijdigheid%20-%20ongegrond.pdf
       → 7 LOWI adviezen  (avg similarity: 0.883)
 
-  LOWI 2020  lowi-2020-21            sim=0.8845  https://lowi.nl/advies-2020-21/
-  LOWI 2022  lowi-2022-12            sim=0.8926  https://lowi.nl/advies-2022-12/
-  LOWI 2024  lowi-2024-05            sim=0.8813  https://lowi.nl/advies-2024-05/
-  LOWI 2024  lowi-2024-14            sim=0.8930  https://lowi.nl/advies-2024-14/
-  LOWI 2025  lowi-2025-05            sim=0.8966  https://lowi.nl/advies-2025-05/
-  LOWI 2025  lowi-2025-09            sim=0.8343  https://lowi.nl/advies-2025-09/
-  LOWI 2025  lowi-2025-13            sim=0.8970  https://lowi.nl/advies-2025-13/
+  LOWI 2020  lowi-2020-21            sim=0.8845  https://lowi.nl/advies-2020-21/    [UNVERIFIED] Maastricht ✓; PhD supervision + authorship of 4 publications — subject plausibly related
+  LOWI 2022  lowi-2022-12            sim=0.8926  https://lowi.nl/advies-2022-12/    [UNVERIFIED] Maastricht ✓; neuroscience postdoc, research-proposal credit dispute
+  LOWI 2024  lowi-2024-05            sim=0.8813  https://lowi.nl/advies-2024-05/    [UNVERIFIED] Maastricht ✓ (FHML); postdoc — institution matches, subject unclear
+  LOWI 2024  lowi-2024-14            sim=0.8930  https://lowi.nl/advies-2024-14/    [UNVERIFIED] Maastricht ✓; two psychologists, collaboration dispute ~10 years ago
+  LOWI 2025  lowi-2025-05            sim=0.8966  https://lowi.nl/advies-2025-05/    [FALSE] Maastricht but different case: medical specialist, 40-year-old clinical-skills assessment model
+  LOWI 2025  lowi-2025-09            sim=0.8343  https://lowi.nl/advies-2025-09/    [FALSE] Maastricht but different case: UHD fired for sexual misconduct — unrelated to research integrity
+  LOWI 2025  lowi-2025-13            sim=0.8970  https://lowi.nl/advies-2025-13/    [FALSE] Maastricht but different case: external complainant about a 2012 thesis
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2014  2014 UM Validiteit van de data - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2014%20UM%20Validiteit%20van%20de%20data%20-%20ongegrond.pdf
       → 5 LOWI adviezen  (avg similarity: 0.892)
 
-  LOWI 2020  lowi-2020-17            sim=0.9057  https://lowi.nl/advies-2020-17/
+  LOWI 2020  lowi-2020-17            sim=0.9057  https://lowi.nl/advies-2020-17/    [FALSE] Maastricht but different case: pharmaceutical employee, articles from 2018/2020
   LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/  [OK] Maastricht University, data validity complaint confirmed in both texts
-  LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/
-  LOWI 2021  lowi-2021-01            sim=0.8892  https://lowi.nl/advies-2021-01/
-  LOWI 2025  lowi-2025-11            sim=0.8633  https://lowi.nl/advies-2025-11/
+  LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/    [UNVERIFIED] Maastricht ✓; PhD student complains about promotor misconduct — possible data-validity overlap
+  LOWI 2021  lowi-2021-01            sim=0.8892  https://lowi.nl/advies-2021-01/    [FALSE] Maastricht but different case: internet-accessibility publications, co-authorship/plagiarism
+  LOWI 2025  lowi-2025-11            sim=0.8633  https://lowi.nl/advies-2025-11/    [FALSE] Maastricht but different case: US-based law-faculty PhD candidate, supervision dispute
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2016  2016 UM Incorrecte omgang met onderzoeksbestanden - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20UM%20Incorrecte%20omgang%20met%20onderzoeksbestanden%20-%20ongegrond.pdf
       → 4 LOWI adviezen  (avg similarity: 0.844)
 
-  LOWI 2021  lowi-2021-12            sim=0.8475  https://lowi.nl/advies-2021-12/
-  LOWI 2022  lowi-2022-07            sim=0.8452  https://lowi.nl/advies-2022-07/
-  LOWI 2023  lowi-2023-13            sim=0.8365  https://lowi.nl/advies-2023-13/
-  LOWI 2025  lowi-2025-12            sim=0.8455  https://lowi.nl/advies-2025-12/
+  LOWI 2021  lowi-2021-12            sim=0.8475  https://lowi.nl/advies-2021-12/    [FALSE] UvA — wrong institution
+  LOWI 2022  lowi-2022-07            sim=0.8452  https://lowi.nl/advies-2022-07/    [FALSE] Wageningen — wrong institution; Twitter misconduct controversy
+  LOWI 2023  lowi-2023-13            sim=0.8365  https://lowi.nl/advies-2023-13/    [FALSE] Universiteit Utrecht — wrong institution
+  LOWI 2025  lowi-2025-12            sim=0.8455  https://lowi.nl/advies-2025-12/    [FALSE] Universiteit Twente — wrong institution
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2016  2016 EUR Niet controleerbare onderzoeksdata - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20EUR%20Niet%20controleerbare%20onderzoeksdata%20-%20gegrond.pdf
       → 3 LOWI adviezen  (avg similarity: 0.825)
 
-  LOWI 2020  lowi-2020-19            sim=0.8292  https://lowi.nl/advies-2020-19/
-  LOWI 2022  lowi-2022-09            sim=0.8220  https://lowi.nl/advies-2022-09/
-  LOWI 2024  lowi-2024-11            sim=0.8224  https://lowi.nl/advies-2024-11/
+  LOWI 2020  lowi-2020-19            sim=0.8292  https://lowi.nl/advies-2020-19/    [UNVERIFIED] Erasmus Universiteit Rotterdam ✓; researcher's complaint about colleague's publication
+  LOWI 2022  lowi-2022-09            sim=0.8220  https://lowi.nl/advies-2022-09/    [FALSE] Erasmus MC but different case: COVID/SARS-CoV-2 origins paper (explicitly same case as LOWI 2021-15)
+  LOWI 2024  lowi-2024-11            sim=0.8224  https://lowi.nl/advies-2024-11/    [FALSE] Erasmus MC but different case: UD fired on the spot, employment dispute
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2016  2016 RU plagiaat - gegrond
@@ -104,44 +104,44 @@ UvNL  2016  2016 RU plagiaat - gegrond
       → 2 LOWI adviezen  (avg similarity: 0.864)
 
   LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/  [OK] Radboud University plagiarism confirmed in both texts; UvNL gegrond (2016), LOWI case involves new complaint (2019) at same institution
-  LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/
+  LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/    [UNVERIFIED] Radboud ✓; life-sciences UHD, manuscript co-authorship dispute — possible plagiarism match
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2016  2016 UT Plagiaat - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20UT%20Plagiaat%20-%20gegrond.pdf
       → 2 LOWI adviezen  (avg similarity: 0.828)
 
-  LOWI 2021  lowi-2021-08            sim=0.8314  https://lowi.nl/advies-2021-08/
-  LOWI 2021  lowi-2021-21            sim=0.8251  https://lowi.nl/advies-2021-21/
+  LOWI 2021  lowi-2021-08            sim=0.8314  https://lowi.nl/advies-2021-08/    [UNVERIFIED] Twente ✓; policy research commissioned by Ministry of Education — thematic overlap with plagiarism plausible
+  LOWI 2021  lowi-2021-21            sim=0.8251  https://lowi.nl/advies-2021-21/    [FALSE] Twente but different case: press-release controversy about a researcher's public statements, not plagiarism
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2017  2017 WUR Onzorgvuldig tot stand komen rapport - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2017%20WUR%20onzorgvuldig%20tot%20stand%20komen%20rapport%20-%20ongegrond.pdf
       → 2 LOWI adviezen  (avg similarity: 0.836)
 
-  LOWI 2022  lowi-2022-10            sim=0.8502  https://lowi.nl/advies-2022-10/
-  LOWI 2024  lowi-2024-06            sim=0.8227  https://lowi.nl/advies-2024-06/
+  LOWI 2022  lowi-2022-10            sim=0.8502  https://lowi.nl/advies-2022-10/    [FALSE] WUR but different case: COVID/SARS-CoV-2 natural origins paper (same case as LOWI 2021-15, Erasmus MC)
+  LOWI 2024  lowi-2024-06            sim=0.8227  https://lowi.nl/advies-2024-06/    [FALSE] WUR but different case: biomedical governance report, CEO attribution dispute
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2014  2014 UvA Manipulatie onderzoeksgegevens - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2014%20UvA%20Manipulatie%20onderzoeksgegevens%20-%20gegrond.pdf
       → 1 LOWI adviezen  (avg similarity: 0.839)
 
-  LOWI 2024  lowi-2024-07            sim=0.8391  https://lowi.nl/advies-2024-07/
+  LOWI 2024  lowi-2024-07            sim=0.8391  https://lowi.nl/advies-2024-07/    [FALSE] VU/KNAW, not UvA — wrong institution
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2017  2017 RU Onthouden erkenning bijdrage artikelen - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2017%20RU%20Onthouden%20erkenning%20bijdrage%20artikelen%20-%20ongegrond.pdf
       → 1 LOWI adviezen  (avg similarity: 0.821)
 
-  LOWI 2025  lowi-2025-04            sim=0.8205  https://lowi.nl/advies-2025-04/
+  LOWI 2025  lowi-2025-04            sim=0.8205  https://lowi.nl/advies-2025-04/    [UNVERIFIED] Radboud ✓; PhD student credit dispute — thematic match with withheld authorship recognition
 
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2017  2017 LEI Plagiaat verifieerbaarheid data - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2017%20UL%20Plagiaat%20verifieerbaarheid%20data%20en%20onjuiste%20conclusies%20-%20ongegrond.pdf
       → 1 LOWI adviezen  (avg similarity: 0.830)
 
-  LOWI 2020  lowi-2020-02            sim=0.8301  https://lowi.nl/advies-2020-02/
+  LOWI 2020  lowi-2020-02            sim=0.8301  https://lowi.nl/advies-2020-02/    [FALSE] UMC Utrecht, not Leiden — wrong institution
 
 ────────────────────────────────────────────────────────────────────────────────
 Total: 57 LOWI–UvNL pair hypotheses across 12 UvNL cases
