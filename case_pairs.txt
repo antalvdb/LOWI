@@ -1,0 +1,138 @@
+Hypothesized LOWI–UvNL case pairs
+==================================
+Method: best-match cosine similarity (≥ 0.82) on sentence-transformer embeddings,
+        filtered to UvNL year ≤ LOWI year. Groups are one UvNL first-instance
+        decision → N LOWI second-instance adviezen.
+Generated from: results_filtered/ corpus (191 LOWI + 163 UvNL Dutch-only adviezen)
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2017  2017 LEI negeren bijdragen van een ander - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2017%20UL%20negeren%20bijdragen%20van%20een%20ander%20-%20ongegrond.pdf
+      → 19 LOWI adviezen  (avg similarity: 0.846)
+
+  LOWI 2019  lowi-2019-23            sim=0.8499  https://lowi.nl/advies-2019-23/
+  LOWI 2019  lowi-2019-25            sim=0.8348  https://lowi.nl/advies-2019-25/
+  LOWI 2020  lowi-2020-01            sim=0.8734  https://lowi.nl/advies-2020-01/
+  LOWI 2020  lowi-2020-07            sim=0.8510  https://lowi.nl/advies-2020-07/
+  LOWI 2020  lowi-2020-08            sim=0.8367  https://lowi.nl/advies-2020-08/
+  LOWI 2020  lowi-2020-10            sim=0.8424  https://lowi.nl/advies-2020-10/
+  LOWI 2020  lowi-2020-14            sim=0.8226  https://lowi.nl/advies-2020-14/
+  LOWI 2021  lowi-2021-14            sim=0.8733  https://lowi.nl/advies-2021-14/
+  LOWI 2021  lowi-2021-18            sim=0.8718  https://lowi.nl/advies-2021-18/
+  LOWI 2022  lowi-2022-17            sim=0.8624  https://lowi.nl/advies-2022-17/
+  LOWI 2022  lowi-2022-02            sim=0.8267  https://lowi.nl/advies-2022-02/
+  LOWI 2023  lowi-2023-03            sim=0.8282  https://lowi.nl/advies-2023-03/
+  LOWI 2023  lowi-2023-05            sim=0.8750  https://lowi.nl/advies-2023-05/
+  LOWI 2023  lowi-2023-10            sim=0.8379  https://lowi.nl/advies-2023-10/
+  LOWI 2024  lowi-2024-01            sim=0.8233  https://lowi.nl/advies-2024-01/
+  LOWI 2024  lowi-2024-02            sim=0.8231  https://lowi.nl/advies-2024-02/
+  LOWI 2025  lowi-2025-03            sim=0.8464  https://lowi.nl/advies-2025-03/
+  LOWI 2025  lowi-2025-14-2          sim=0.8582  https://lowi.nl/advies-2025-14-2/
+  LOWI 2025  lowi-2025-15            sim=0.8340  https://lowi.nl/advies-2025-15/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2014  2014 TUD Laster - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2014%20TUD%20Laster%20-%20ongegrond.pdf
+      → 10 LOWI adviezen  (avg similarity: 0.838)
+
+  LOWI 2020  lowi-2020-11            sim=0.8515  https://lowi.nl/advies-2020-11/
+  LOWI 2021  lowi-2021-02            sim=0.8325  https://lowi.nl/advies-2021-02/
+  LOWI 2022  lowi-2022-18            sim=0.8339  https://lowi.nl/advies-2022-18/
+  LOWI 2023  lowi-2023-06            sim=0.8272  https://lowi.nl/advies-2023-06/
+  LOWI 2023  lowi-2023-17            sim=0.8264  https://lowi.nl/advies-2023-17/
+  LOWI 2023  lowi-2023-19            sim=0.8289  https://lowi.nl/advies-2023-19/
+  LOWI 2024  lowi-2024-03            sim=0.8489  https://lowi.nl/advies-2024-03/
+  LOWI 2024  lowi-2024-10            sim=0.8469  https://lowi.nl/advies-2024-10/
+  LOWI 2024  lowi-2024-19            sim=0.8645  https://lowi.nl/advies-2024-19/
+  LOWI 2025  lowi-2025-08            sim=0.8236  https://lowi.nl/advies-2025-08/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2018  2018 UM Betrouwbaarheid en onpartijdigheid - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2018%20UM%20Betrouwbaarheid%20en%20onpartijdigheid%20-%20ongegrond.pdf
+      → 7 LOWI adviezen  (avg similarity: 0.883)
+
+  LOWI 2020  lowi-2020-21            sim=0.8845  https://lowi.nl/advies-2020-21/
+  LOWI 2022  lowi-2022-12            sim=0.8926  https://lowi.nl/advies-2022-12/
+  LOWI 2024  lowi-2024-05            sim=0.8813  https://lowi.nl/advies-2024-05/
+  LOWI 2024  lowi-2024-14            sim=0.8930  https://lowi.nl/advies-2024-14/
+  LOWI 2025  lowi-2025-05            sim=0.8966  https://lowi.nl/advies-2025-05/
+  LOWI 2025  lowi-2025-09            sim=0.8343  https://lowi.nl/advies-2025-09/
+  LOWI 2025  lowi-2025-13            sim=0.8970  https://lowi.nl/advies-2025-13/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2014  2014 UM Validiteit van de data - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2014%20UM%20Validiteit%20van%20de%20data%20-%20ongegrond.pdf
+      → 5 LOWI adviezen  (avg similarity: 0.892)
+
+  LOWI 2020  lowi-2020-17            sim=0.9057  https://lowi.nl/advies-2020-17/
+  LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/
+  LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/
+  LOWI 2021  lowi-2021-01            sim=0.8892  https://lowi.nl/advies-2021-01/
+  LOWI 2025  lowi-2025-11            sim=0.8633  https://lowi.nl/advies-2025-11/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2016  2016 UM Incorrecte omgang met onderzoeksbestanden - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2016%20UM%20Incorrecte%20omgang%20met%20onderzoeksbestanden%20-%20ongegrond.pdf
+      → 4 LOWI adviezen  (avg similarity: 0.844)
+
+  LOWI 2021  lowi-2021-12            sim=0.8475  https://lowi.nl/advies-2021-12/
+  LOWI 2022  lowi-2022-07            sim=0.8452  https://lowi.nl/advies-2022-07/
+  LOWI 2023  lowi-2023-13            sim=0.8365  https://lowi.nl/advies-2023-13/
+  LOWI 2025  lowi-2025-12            sim=0.8455  https://lowi.nl/advies-2025-12/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2016  2016 EUR Niet controleerbare onderzoeksdata - gegrond
+      https://www.universiteitenvannederland.nl/files/publications/2016%20EUR%20Niet%20controleerbare%20onderzoeksdata%20-%20gegrond.pdf
+      → 3 LOWI adviezen  (avg similarity: 0.825)
+
+  LOWI 2020  lowi-2020-19            sim=0.8292  https://lowi.nl/advies-2020-19/
+  LOWI 2022  lowi-2022-09            sim=0.8220  https://lowi.nl/advies-2022-09/
+  LOWI 2024  lowi-2024-11            sim=0.8224  https://lowi.nl/advies-2024-11/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2016  2016 RU plagiaat - gegrond
+      https://www.universiteitenvannederland.nl/files/publications/2016%20RU%20plagiaat%20-%20gegrond.pdf
+      → 2 LOWI adviezen  (avg similarity: 0.864)
+
+  LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/
+  LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2016  2016 UT Plagiaat - gegrond
+      https://www.universiteitenvannederland.nl/files/publications/2016%20UT%20Plagiaat%20-%20gegrond.pdf
+      → 2 LOWI adviezen  (avg similarity: 0.828)
+
+  LOWI 2021  lowi-2021-08            sim=0.8314  https://lowi.nl/advies-2021-08/
+  LOWI 2021  lowi-2021-21            sim=0.8251  https://lowi.nl/advies-2021-21/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2017  2017 WUR Onzorgvuldig tot stand komen rapport - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2017%20WUR%20onzorgvuldig%20tot%20stand%20komen%20rapport%20-%20ongegrond.pdf
+      → 2 LOWI adviezen  (avg similarity: 0.836)
+
+  LOWI 2022  lowi-2022-10            sim=0.8502  https://lowi.nl/advies-2022-10/
+  LOWI 2024  lowi-2024-06            sim=0.8227  https://lowi.nl/advies-2024-06/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2014  2014 UvA Manipulatie onderzoeksgegevens - gegrond
+      https://www.universiteitenvannederland.nl/files/publications/2014%20UvA%20Manipulatie%20onderzoeksgegevens%20-%20gegrond.pdf
+      → 1 LOWI adviezen  (avg similarity: 0.839)
+
+  LOWI 2024  lowi-2024-07            sim=0.8391  https://lowi.nl/advies-2024-07/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2017  2017 RU Onthouden erkenning bijdrage artikelen - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2017%20RU%20Onthouden%20erkenning%20bijdrage%20artikelen%20-%20ongegrond.pdf
+      → 1 LOWI adviezen  (avg similarity: 0.821)
+
+  LOWI 2025  lowi-2025-04            sim=0.8205  https://lowi.nl/advies-2025-04/
+
+────────────────────────────────────────────────────────────────────────────────
+UvNL  2017  2017 LEI Plagiaat verifieerbaarheid data - ongegrond
+      https://www.universiteitenvannederland.nl/files/publications/2017%20UL%20Plagiaat%20verifieerbaarheid%20data%20en%20onjuiste%20conclusies%20-%20ongegrond.pdf
+      → 1 LOWI adviezen  (avg similarity: 0.830)
+
+  LOWI 2020  lowi-2020-02            sim=0.8301  https://lowi.nl/advies-2020-02/
+
+────────────────────────────────────────────────────────────────────────────────
+Total: 57 LOWI–UvNL pair hypotheses across 12 UvNL cases
