@@ -104,7 +104,7 @@ UvNL  2016  2016 RU plagiaat - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20RU%20plagiaat%20-%20gegrond.pdf
       → 2 LOWI adviezen  (avg similarity: 0.864)
 
-  LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/  [OK] Radboud University plagiarism confirmed in both texts; UvNL gegrond (2016), LOWI case involves new complaint (2019) at same institution
+  LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/    [FALSE] Radboud but different case: data falsification + statistical misapplication across 20+ pharmaceutical publications, own CWI decision Jun 2020 — unrelated to 2016 single-article plagiarism case
   LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/    [FALSE] Radboud but different case: co-author blocking manuscript submission (not plagiarism), own CWI decision Oct 2022
 
 ────────────────────────────────────────────────────────────────────────────────
