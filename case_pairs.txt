@@ -5,6 +5,12 @@ Method: best-match cosine similarity (≥ 0.82) on sentence-transformer embeddin
         decision → N LOWI second-instance adviezen.
 Generated from: results_filtered/ corpus (191 LOWI + 163 UvNL Dutch-only adviezen)
 
+Verification status (manually checked pairs marked inline):
+  [OK]      institution and case details confirmed in document text
+  [RELATED] same complainant/dispute but not a direct first-instance → appeal pair
+  [FALSE]   different institution or case; topical similarity only
+  Unmarked entries have not yet been manually verified.
+
 ────────────────────────────────────────────────────────────────────────────────
 UvNL  2017  2017 LEI negeren bijdragen van een ander - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2017%20UL%20negeren%20bijdragen%20van%20een%20ander%20-%20ongegrond.pdf
@@ -12,7 +18,7 @@ UvNL  2017  2017 LEI negeren bijdragen van een ander - ongegrond
 
   LOWI 2019  lowi-2019-23            sim=0.8499  https://lowi.nl/advies-2019-23/
   LOWI 2019  lowi-2019-25            sim=0.8348  https://lowi.nl/advies-2019-25/
-  LOWI 2020  lowi-2020-01            sim=0.8734  https://lowi.nl/advies-2020-01/
+  LOWI 2020  lowi-2020-01            sim=0.8734  https://lowi.nl/advies-2020-01/  [RELATED] same complainant/dispute, but lowi-2020-01 is a new complaint (Nov 2017) against both Leiden and VU Amsterdam — not a direct appeal of this CWI advice
   LOWI 2020  lowi-2020-07            sim=0.8510  https://lowi.nl/advies-2020-07/
   LOWI 2020  lowi-2020-08            sim=0.8367  https://lowi.nl/advies-2020-08/
   LOWI 2020  lowi-2020-10            sim=0.8424  https://lowi.nl/advies-2020-10/
@@ -35,7 +41,7 @@ UvNL  2014  2014 TUD Laster - ongegrond
       https://www.universiteitenvannederland.nl/files/publications/2014%20TUD%20Laster%20-%20ongegrond.pdf
       → 10 LOWI adviezen  (avg similarity: 0.838)
 
-  LOWI 2020  lowi-2020-11            sim=0.8515  https://lowi.nl/advies-2020-11/
+  LOWI 2020  lowi-2020-11            sim=0.8515  https://lowi.nl/advies-2020-11/  [FALSE] lowi-2020-11 is a Rijksuniversiteit Groningen case; no connection to TU Delft
   LOWI 2021  lowi-2021-02            sim=0.8325  https://lowi.nl/advies-2021-02/
   LOWI 2022  lowi-2022-18            sim=0.8339  https://lowi.nl/advies-2022-18/
   LOWI 2023  lowi-2023-06            sim=0.8272  https://lowi.nl/advies-2023-06/
@@ -65,7 +71,7 @@ UvNL  2014  2014 UM Validiteit van de data - ongegrond
       → 5 LOWI adviezen  (avg similarity: 0.892)
 
   LOWI 2020  lowi-2020-17            sim=0.9057  https://lowi.nl/advies-2020-17/
-  LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/
+  LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/  [OK] Maastricht University, data validity complaint confirmed in both texts
   LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/
   LOWI 2021  lowi-2021-01            sim=0.8892  https://lowi.nl/advies-2021-01/
   LOWI 2025  lowi-2025-11            sim=0.8633  https://lowi.nl/advies-2025-11/
@@ -94,7 +100,7 @@ UvNL  2016  2016 RU plagiaat - gegrond
       https://www.universiteitenvannederland.nl/files/publications/2016%20RU%20plagiaat%20-%20gegrond.pdf
       → 2 LOWI adviezen  (avg similarity: 0.864)
 
-  LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/
+  LOWI 2020  lowi-2020-22            sim=0.8648  https://lowi.nl/advies-2020-22/  [OK] Radboud University plagiarism confirmed in both texts; UvNL gegrond (2016), LOWI case involves new complaint (2019) at same institution
   LOWI 2023  lowi-2023-08            sim=0.8628  https://lowi.nl/advies-2023-08/
 
 ────────────────────────────────────────────────────────────────────────────────
