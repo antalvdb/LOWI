@@ -75,7 +75,7 @@ UvNL  2014  2014 UM Validiteit van de data - ongegrond
       → 5 LOWI adviezen  (avg similarity: 0.892)
 
   LOWI 2020  lowi-2020-17            sim=0.9057  https://lowi.nl/advies-2020-17/    [FALSE] Maastricht but different case: pharmaceutical employee, articles from 2018/2020
-  LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/  [OK] Maastricht University, data validity complaint confirmed in both texts
+  LOWI 2020  lowi-2020-18            sim=0.9110  https://lowi.nl/advies-2020-18/    [FALSE] Maastricht but different case: special professor vs. dean, scientific work seized/destroyed, labour-conflict complaint ruled inadmissible; own CWI decision Mar 2020
   LOWI 2020  lowi-2020-20            sim=0.8888  https://lowi.nl/advies-2020-20/    [FALSE] Maastricht but different case: PhD student vs. supervisor, data manipulation + authorship in grant applications and thesis, own CWI decision Feb 2020
   LOWI 2021  lowi-2021-01            sim=0.8892  https://lowi.nl/advies-2021-01/    [FALSE] Maastricht but different case: internet-accessibility publications, co-authorship/plagiarism
   LOWI 2025  lowi-2025-11            sim=0.8633  https://lowi.nl/advies-2025-11/    [FALSE] Maastricht but different case: US-based law-faculty PhD candidate, supervision dispute
