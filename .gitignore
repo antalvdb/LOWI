@@ -1,0 +1,17 @@
+# Per-document scraper caches (regenerable via scrape_lowi.py / scrape_uvnl.py)
+data/lowi/*.json
+data/uvnl/*.json
+data/uvnl/pdfs/
+
+# Corpus JSONL files (large; regenerate with scrapers)
+data/*.jsonl
+
+# BERTopic model and embeddings (large; regenerate with run_bertopic.py)
+results*/topic_model/
+results*/embeddings.npy
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store

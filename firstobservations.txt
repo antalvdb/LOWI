@@ -1,0 +1,218 @@
+First observations: LOWI / UvNL corpus linguistics study
+==========================================================
+Corpus: 422 documents — 232 LOWI (2007–2026), 190 UvNL (2013–2026)
+BERTopic: 28 topics, 43 noise documents
+
+OVERALL G-TEST (12 significant topics, Bonferroni p < 0.05)
+------------------------------------------------------------
+
+UvNL-dominant topics (LOWI frequency = 0 in all cases):
+
+  Topic 0   the, to, and, that, complainant
+            UvNL freq: 38%  — English-language documents, absent from LOWI
+
+  Topic 9   beklaagden, tu, klachtonderdeel, cvb, tabel
+            UvNL freq:  8%
+
+  Topic 11  the, boek, plagiaat, 2014, passages
+            UvNL freq:  6%
+
+  Topic 12  the, beklaagden, toetsingscommissie, that, organisatie
+            UvNL freq:  6%
+
+  Topic 13  beklaagden, 2018, databases, bijlage, radboud
+            UvNL freq:  5%
+
+LOWI-dominant topics (UvNL frequency = 0 in all cases):
+
+  Topic 1   verzoeker, 2018, belanghebbende, verzoekers, betrokkene
+            LOWI freq:  9%
+
+  Topic 4   verzoeker, belanghebbende, 2015, belanghebbenden, 2016
+            LOWI freq:  7%
+
+  Topic 5   betrokkene, verzoeker, proefschrift, verzoekers, betoogt
+            LOWI freq:  7%
+
+  Topic 6   betrokkene, verzoeker, verzoekers, utrecht, metc
+            LOWI freq:  7%
+
+  Topic 7   dr, 2011, prof dr, 2008, verweerder
+            LOWI freq:  7%
+
+  Topic 8   verzoeker, 2018, belanghebbende, betrokkene, promovendus
+            LOWI freq:  6%
+
+  Topic 10  verzoeker, persbericht, polemiek, verzoekers
+            LOWI freq:  6%
+
+DOMINANT PATTERN
+----------------
+Topic 0 (English-language documents) accounts for 38% of UvNL but is entirely
+absent from LOWI, which publishes exclusively in Dutch. UvNL university-level
+cases favour procedural/institutional vocabulary (beklaagden, cvb,
+klachtonderdeel), while LOWI appeals use "verzoeker/betrokkene" and distribute
+across several substantive sub-topics.
+
+PER 5-YEAR PERIOD
+-----------------
+
+2005–2009  (LOWI: 7, UvNL: 0)
+  Skipped: UvNL corpus starts in 2013.
+
+2010–2014  (LOWI: 33, UvNL: 28)
+  1 significant topic:
+  - Topic 2: 2014, plagiaat, 2012, 2013, klacht klager
+    LOWI freq: 45%, UvNL freq: 0%  (LOWI-dominant)
+
+2015–2019  (LOWI: 85, UvNL: 82)
+  3 significant topics, all LOWI-dominant (UvNL freq = 0):
+  - Topic 1: verzoeker, 2018, belanghebbende, verzoekers, betrokkene   — 24%
+  - Topic 4: verzoeker, belanghebbende, 2015, belanghebbenden, 2016    — 20%
+  - Topic 8: verzoeker, 2018, belanghebbende, betrokkene, promovendus  — 18%
+
+2020–2024  (LOWI: 90, UvNL: 68)
+  2 significant topics:
+  - Topic 0: the, to, and, that, complainant
+    LOWI freq: 0%, UvNL freq: 88%  (UvNL-dominant; English-language docs)
+  - Topic 6: betrokkene, verzoeker, verzoekers, utrecht, metc
+    LOWI freq: 14%, UvNL freq: 0%  (LOWI-dominant; clinical research cases)
+
+2025+  (LOWI: 17, UvNL: 12)
+  1 significant topic:
+  - Topic 0: the, to, and, that, complainant
+    LOWI freq: 0%, UvNL freq: 100%  (UvNL-dominant; English-language docs)
+
+TEMPORAL INTERPRETATION
+-----------------------
+- In the earliest overlapping period (2010–2014), LOWI is distinctive mainly
+  through a plagiarism-heavy cluster.
+- In 2015–2019, multiple LOWI-specific appeal-procedure topics emerge, suggesting
+  increasing thematic differentiation as LOWI's caseload grew.
+- From 2020 onward, the English-language shift in UvNL publications becomes the
+  dominant signal. This likely reflects a policy change by universities to publish
+  decisions in English (possibly driven by internationalisation).
+- The LOWI clinical-research topic (utrecht, metc) becoming prominent in 2020–2024
+  may reflect growth in complaints involving clinical/medical research protocols.
+
+OUTPUT FILES
+------------
+results/gtest_results.csv          — full G-test table for all periods
+results/gtest_overall.png          — bar chart: overall LOWI vs UvNL
+results/gtest_2010-2014.png        — bar chart: 2010–2014 period
+results/gtest_2015-2019.png        — bar chart: 2015–2019 period
+results/gtest_2020-2024.png        — bar chart: 2020–2024 period
+results/gtest_2025plus.png         — bar chart: 2025+ period
+results/heatmap_source_period.png  — topic frequency by source × period
+results/topic_time_series.png      — frequency trajectories for significant topics
+results/topic_info.csv             — full BERTopic topic labels and sizes
+results/topic_assignments.csv      — per-document topic assignment
+
+
+===========================================================================
+FILTERED CORPUS ANALYSIS
+===========================================================================
+Filters applied:
+  - LOWI "besluiten" removed (inadmissibility decisions): 41 documents
+  - English-language documents removed (detected via langdetect): 27 UvNL docs
+Filtered corpus: 354 documents — 191 LOWI adviezen (2007–2026),
+                                  163 UvNL Dutch-only (2013–2026)
+BERTopic: 29 topics, 46 noise documents
+
+OVERALL G-TEST (8 significant topics, Bonferroni p < 0.05)
+------------------------------------------------------------
+
+UvNL-dominant topics (LOWI frequency = 0 in all cases):
+
+  Topic 1   beklaagden, datum, partij, zegt, ngwi
+            UvNL freq: 13%
+
+  Topic 3   beklaagden, tu, resultaten, art, cvb
+            UvNL freq: 10%
+
+  Topic 4   universiteit utrecht, utrecht, klagers, project, manuscript
+            UvNL freq:  9%
+
+  Topic 8   plagiaat, passages, boek, 2014, bronvermelding
+            UvNL freq:  7%
+
+  Topic 11  the, beklaagden, 2013, boek, passages
+            UvNL freq:  7%  — residual mixed-language topic
+
+  Topic 12  beklaagden, 2018, databases, bijlage, radboud
+            UvNL freq:  6%
+
+LOWI-dominant topics (UvNL frequency = 0 in all cases):
+
+  Topic 0   verzoeker, belanghebbende, 2018, 2016, 2017
+            LOWI freq: 13%
+
+  Topic 6   belanghebbende, verzoeker, belanghebbenden, 2016, 2015
+            LOWI freq:  7%
+
+DOMINANT PATTERN (filtered)
+----------------------------
+With English documents and inadmissibility decisions removed, the contrast
+reduces from 12 to 8 significant topics and is now purely substantive.
+The split reflects genuine procedural terminology: UvNL first-instance
+decisions consistently use "beklaagde/klager" while LOWI second-instance
+reviews use "verzoeker/belanghebbende". This is structurally expected —
+LOWI handles appeals, not original complaints — but the G-test confirms
+the difference is corpus-wide and not driven by a handful of outliers.
+Topic 11 retains some English tokens, suggesting a small number of
+mixed-language or code-switching documents remain after filtering.
+
+PER 5-YEAR PERIOD (filtered)
+------------------------------
+
+2005–2009  (LOWI: 7, UvNL: 0)
+  Skipped: UvNL corpus starts in 2013.
+
+2010–2014  (LOWI: 32, UvNL: 26)
+  1 significant topic:
+  - Topic 2: 2014, plagiaat, 2012, 2013, klacht klager
+    LOWI freq: 44%, UvNL freq: 0%  (LOWI-dominant)
+
+2015–2019  (LOWI: 63, UvNL: 71)
+  3 significant topics, all LOWI-dominant (UvNL freq = 0):
+  - Topic 0: verzoeker, belanghebbende, 2018, 2016, 2017   — 40%
+  - Topic 6: belanghebbende, verzoeker, belanghebbenden     — 21%
+  - Topic 9: belanghebbende, verzoeker, 2015, open brief   — 19%
+
+2020–2024  (LOWI: 80, UvNL: 49)
+  2 significant topics, both UvNL-dominant (LOWI freq = 0):
+  - Topic 1: beklaagden, datum, partij, zegt, ngwi          — 35%
+  - Topic 4: universiteit utrecht, klagers, project          — 18%
+
+2025+  (LOWI: 17, UvNL: 9)
+  0 significant topics (sample too small for reliable inference).
+
+TEMPORAL INTERPRETATION (filtered)
+------------------------------------
+- 2010–2014: LOWI is distinctive through a plagiarism-focused cluster, which
+  may reflect the types of cases reaching LOWI in its earlier years.
+- 2015–2019: LOWI-specific appeals vocabulary strongly dominates. Three
+  related "verzoeker/belanghebbende" clusters cover 40–21–19% of LOWI
+  documents in this period; none appear in UvNL. This likely captures the
+  growth of appeal activity after the 2012 Netherlands Code of Conduct
+  revision reinforced LOWI's role.
+- 2020–2024: The pattern reverses — two UvNL-dominant topics appear. The
+  largest (35% of UvNL) contains the token "ngwi", which is the acronym
+  for the Netherlands Board on Research Integrity (Nederlandse Gedragscode
+  Wetenschappelijke Integriteit), introduced in 2018 and implemented more
+  widely from 2020. This suggests UvNL institutions adopted standardised
+  NGWI-prescribed report templates that LOWI documents do not follow.
+- 2025+: No significant differences detectable yet — the period is too
+  short (17 LOWI, 9 UvNL) for the G-test to reach significance.
+
+OUTPUT FILES (filtered)
+------------------------
+results_filtered/gtest_results.csv          — full G-test table for all periods
+results_filtered/gtest_overall.png          — bar chart: overall LOWI vs UvNL
+results_filtered/gtest_2010-2014.png        — bar chart: 2010–2014 period
+results_filtered/gtest_2015-2019.png        — bar chart: 2015–2019 period
+results_filtered/gtest_2020-2024.png        — bar chart: 2020–2024 period
+results_filtered/heatmap_source_period.png  — topic frequency by source × period
+results_filtered/topic_time_series.png      — frequency trajectories
+results_filtered/topic_info.csv             — full BERTopic topic labels and sizes
+results_filtered/topic_assignments.csv      — per-document topic assignment
